@@ -1,0 +1,17 @@
+{
+	"files.autoSave": "onFocusChange",
+	"editor.minimap.enabled": true,
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
+	"editor.formatOnSave": true,
+	"editor.fontSize": 15,
+	"editor.wordWrap": "on",
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"prettier.resolveGlobalModules": true,
+	"prettier.enable": true,
+	"prettier.tabWidth": 2,
+	"editor.formatOnSaveMode": "modifications",
+	"editor.tabSize": 2,
+	"prettier.useTabs": true
+}

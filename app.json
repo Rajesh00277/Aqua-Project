@@ -4,9 +4,9 @@
     "slug": "Aqua-Project",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/water_logo.jpg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/water_logo.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
