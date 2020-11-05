@@ -1,8 +1,18 @@
 import React, { useState } from 'react';
 import { AppLoading } from 'expo';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
 import * as Font from 'expo-font';
+import ReduxThunk from 'redux-thunk';
 
+import ProductReducer from './store/reducer/product';
 import AppNavigator from './navigation/AppNavigator';
+
+const rootReducer = combineReducers({
+  products: ProductReducer
+});
+
+const store = createStore(rootReducer, applyMiddleware(ReduxThunk));
 
 export default function App() {
   const [fontLoaded, setFontLoaded] = useState(false);
@@ -28,8 +38,8 @@ export default function App() {
     );
   }
   return (
-    <AppNavigator />
+    <Provider store={store}>
+      <AppNavigator />
+    </Provider>
   );
 }
-
-

@@ -5,8 +5,11 @@ import Color from '../../constants/Color';
 const CategoryGridStyle = (props) => {
   return (
     <View style={styles.gridItem}>
-      <TouchableOpacity onPress={() => { }}>
-        <Image style={styles.imageStyle} source={{ uri: props.image }} />
+      <TouchableOpacity onPress={props.onPress}>
+        <Image
+          style={styles.imageStyle}
+          source={{ uri: props.image }}
+        />
         <Text style={styles.title}>{props.title}</Text>
       </TouchableOpacity>
     </View>
@@ -25,8 +28,12 @@ const styles = StyleSheet.create({
   imageStyle: {
     width: '100%',
     height: '85%',
+    resizeMode: 'stretch',
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20
   },
   title: {
+    marginTop: 3,
     fontFamily: 'open-sans-bold',
     fontSize: 16,
     textAlign: 'center',

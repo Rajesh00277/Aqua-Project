@@ -3,7 +3,7 @@ import { Platform } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-import { FontAwesome, Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { FontAwesome, Ionicons, MaterialIcons, Fontisto } from '@expo/vector-icons';
 
 import Color from '../constants/Color';
 import HomeScreen from '../screens/HomeScreen';
@@ -97,7 +97,7 @@ const appTabNavigator = createBottomTabNavigator(
       navigationOptions: {
         tabBarIcon: (tabInfo) => {
           return (
-            <MaterialIcons name="payment" size={25} color={tabInfo.tintColor} />
+            <Fontisto name="arrow-swap" size={25} color={tabInfo.tintColor} />
           );
         },
       },

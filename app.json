@@ -1,26 +1,28 @@
 {
-  "expo": {
-    "name": "Aqua-Project",
-    "slug": "Aqua-Project",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/water_logo.jpg",
-    "splash": {
-      "image": "./assets/water_logo.jpg",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"name": "Aqua-Project",
+		"slug": "Aqua-Project",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/water_logo.jpg",
+		"splash": {
+			"image": "./assets/water_logo.jpg",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"notification": {
+			"androidCollapsedTitle": "#ffffff"
+		},
+		"userInterfaceStyle": "dark"
+	}
 }

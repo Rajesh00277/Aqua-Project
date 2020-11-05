@@ -1,12 +1,9 @@
 import { Platform } from "react-native";
 export default {
-  // primary: '#4b0082',
-  primary: Platform.OS === 'ios' ? '#0000ff' : '#ffffff',
+  primary: Platform.OS === 'ios' ? '#4b0082' : '#ffffff',
   // primary: '#00ffff',
-  secondary: Platform.OS === 'android' ? '#0000ff' : '#ffffff',
-  label: '#0000ff',
+  secondary: Platform.OS === 'android' ? '#4b0082' : '#ffffff',
+  label: '#4b0082',
   bgColor: '#ffffff',
   black: '#000000',
-  // primary1: '#009dff',
-  // accent: 'white'
 };

@@ -1,5 +1,5 @@
-import Home from '../models/Home';
+import Product from '../models/Product';
 export const PRODUCTS = [
-  new Home('1', 'https://3.imimg.com/data3/HQ/QU/MY-3648377/20-ltr-water-can-250x250.jpg', 'Drink Water', 30, 20),
-  new Home('2', 'https://www.jetscapefbo.com/wp-content/uploads/2019/05/Fueling.png', 'Tank Water', 1000, 5000)
+  new Product('1', 'https://5.imimg.com/data5/DK/XZ/UD/SELLER-82800006/20-liter-packaged-water-jar-250x250.jpg', 'Drink Water', 'A Packaged Drinking Water – Mineral Water Can. Can be stored and consumed for 1 month duration from the date of manufacture.', 50, 20),
+  new Product('2', 'https://i.ytimg.com/vi/sdtKzBH-PJM/maxresdefault.jpg', 'Tank Water', 'This water can be used for irrigation agriculture, fire suppression, agricultural farming, both for plants and livestock,  food preparation as well as many other personal use. Please do not drink this water...!', 1000, 5000),
 ];
